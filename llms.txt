@@ -1,0 +1,31 @@
+# MemberPress AI Assistant Diagnostics
+
+> A WordPress plugin that provides diagnostic and testing tools for the MemberPress AI Assistant.
+
+This plugin helps developers and administrators diagnose issues, test functionality, and validate the AI Assistant's behavior in various scenarios. It includes comprehensive test suites and monitoring tools to ensure the AI Assistant operates correctly and efficiently.
+
+## Documentation
+
+- [MemberPress AI Assistant](https://memberpress.com/ai-assistant): Main documentation for the AI Assistant platform
+- [WordPress Plugin API](https://developer.wordpress.org/plugins/): Reference for WordPress plugin development
+- [MemberPress Developer Portal](https://developer.memberpress.com): Documentation for MemberPress development
+
+## Testing Tools
+
+- [System Diagnostics](internal://diagnostics): Run system and environment checks
+- [Edge Case Testing](internal://edge-cases): Test boundary conditions and special cases
+- [Error Recovery](internal://error-recovery): Test error handling and recovery mechanisms
+- [Performance Monitoring](internal://performance): Monitor AI Assistant response times and resource usage
+
+## Integration Tests
+
+- [Tool Execution](internal://tool-execution): Test various AI tools and their functionality
+- [Plugin Logs Tool](internal://plugin-logs): Test log collection and analysis
+- [WP API Tool](internal://wp-api): Test WordPress API integration
+- [WP CLI Tool](internal://wpcli): Test WordPress CLI integration
+
+## Developer Resources
+
+- [Test Hooks](code://mpai_render_diagnostics): Action to render additional diagnostic sections
+- [Result Filters](code://mpai_diagnostic_results): Filter to modify diagnostic results
+- [Test Result Processing](code://mpai_test_result): Filter to process test results
